@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" >
+  <ribbon>
+    <tabs>
+        <tab id="tE2T" label="Excel2TSV">
+            <group id="gE2T"  label="Excel2TSV">
+
+                <button id="btnE2T1"  size="large" imageMso="_3DTiltLeftClassic"
+            onAction="Main.RunMain" screentip="Run" label="Excel 2 TSV Run"
+            supertip="Run"/>
+
+                <button id="btnE2T2"  size="large" imageMso="Help"
+            onAction="ModHelp.CallHelp" screentip="HELP" label="Help"
+            supertip="Help"/>
+            </group>
+        </tab>
+    </tabs>
+  </ribbon>
+</customUI>
